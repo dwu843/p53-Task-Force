@@ -8,13 +8,11 @@ Our analysis aims to identify meaningful correlations, characterize structural p
 
 ## Data Availability
 
-All required data is included in **data.zip**
-
-After extracting, ensure the following files are in the same directory as the notebook:
+All required data can be found at **https://doi.org/10.24432/C5T89H**, specifically in the **K9** dataset under *p53_new_2012*. The dataset includes the following three files:
 
 - **K9.data** — high-dimensional biophysical feature matrix  
 - **K9.def** — transcriptional activity labels (“active” or “inactive”)  
-- **K9.instance.tags** — variant identifiers mapped to feature rows  
+- **K9.instance.tags** — variant identifiers corresponding to feature rows 
 
 A preprocessing pipeline merges, cleans, and aligns these data sources automatically.
 
