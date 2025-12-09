@@ -8,7 +8,7 @@ Our analysis aims to identify meaningful correlations, characterize structural p
 
 ## Data Availability
 
-All required data is included in:**data.zip**
+All required data is included in **data.zip**
 
 After extracting, ensure the following files are in the same directory as the notebook:
 
