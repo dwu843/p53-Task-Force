@@ -21,8 +21,7 @@ A preprocessing pipeline merges, cleans, and aligns these data sources automatic
 ## Project Objectives
 
 - Analyze statistical relationships between molecular-dynamics biophysical features and p53 transcriptional activity.  
-- Build supervised machine learning models to classify p53 variants as active or inactive.  
-- Apply PCA to uncover structure in high-dimensional features.  
+- Build machine learning models to classify p53 variants as active or inactive.  
 - Compare model performance across logistic regression, SVM, and random forest classifiers.
 
 ---
@@ -32,7 +31,6 @@ A preprocessing pipeline merges, cleans, and aligns these data sources automatic
 ### 1. Data Exploration and Cleaning
 - Merging feature, label, and identifier files  
 - Removing fully missing rows/columns  
-- Median imputation for remaining missing values  
 - Inspecting class imbalance and feature distributions  
 
 ### 2. Machine Learning Models
@@ -49,8 +47,7 @@ Models are evaluated on held-out test data.
 - Balanced accuracy  
 - ROC and Precision–Recall curves  
 
-### 4. Visualizations
-- PCA scatterplots of test samples  
+### 4. Visualizations 
 - ROC and PR curves comparing model performance  
 
 ---
